@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace CSV_Library
 {
-    internal class CSVHelper
+    public class CSVHelper
     {
         public static void Write<T>(string path, T dataModel)
         {
