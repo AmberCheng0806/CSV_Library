@@ -43,8 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CSVHelper.cs" />
+    <Compile Include="Data.cs" />
+    <Compile Include="DataDTO.cs" />
+    <Compile Include="HeaderManage.cs" />
+    <Compile Include="HeaderType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WriterFactory.cs" />
+    <Compile Include="Write\AWrite.cs" />
+    <Compile Include="Write\FileNotExist.cs" />
+    <Compile Include="Write\HeaderExist.cs" />
+    <Compile Include="Write\HeaderNotExistAndDataExist.cs" />
+    <Compile Include="Write\HeaderNotExistAndDataNotExist.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
